@@ -1,0 +1,135 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+h1 {
+    color: gray;
+    text-align: center;
+}
+
+/*************************Slideshow***********************************/
+.row {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.demo {
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    background-color: rgba(0,0,0,0.1);
+}
+.demo img {
+    display: block;
+    height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lSSlideOuter {
+    width: 50vw;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lSSlideWrapper ul {
+    height: 33.3vw !important;
+}
+.lSSlideWrapper.usingCss .lSFade {
+    height: 33.3vw !important;
+}
+.lSSlideWrapper, 
+.lSGallery {
+width: 100% !important;
+height: 100% !important
+}
+.lSSlideOuter .lSPager.lSGallery {
+    height: auto !important;
+    width: 100vw !important;
+    padding: 5.5px 12% 0 12.5%;
+    background-color: #fff;
+    left: 0 !important;
+    margin-left: -50%;
+}
+.lSSlideOuter .lightSlider > *, .lSSlideOuter .lSGallery li {
+    float: left;
+    height: 100% !important;
+}
+.lSGallery {
+    transform: translate3d(0px, 0px, 0px) !important;
+    height: auto;
+
+    }
+.lSPager.lSGallery{
+    height: 6em;
+}
+.lSSlideOuter .lSPager.lSGallery li{
+    opacity: 0.4;
+    width: 62.15px !important;
+    height: 41px !important;
+    overflow: hidden !important;
+    margin-bottom: 5px;
+}
+.lSSlideOuter .lSPager.lSGallery li.active{
+    opacity: 1;
+    border: 2px solid gray;
+}
+.lSSlideOuter .lSPager.lSGallery li:hover {
+    border: 2px solid gray;
+    opacity: 1;
+}
+.caption {
+    position: absolute;
+    bottom:0;
+    background-color: rgb(0,0,0,0.3);
+    margin-bottom: 0;
+}
+p {
+    width: 50vw;
+    text-transform: uppercase;
+    letter-spacing: 0.1875vw;
+    padding: 0.9375vw 1.25vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.5em;
+}
+.customHtml {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1875vw;
+    padding: 0.9375vw 1.25vw;
+    font-family: Arial,sans-serif;
+    font-size: 1.5em;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+}
+.lg-sub-html {
+    padding: 0 !important;
+}
+.lSAction > a {
+    opacity: 1 !important;
+}
+.lSSlideOuter .lSPager.lSGallery li .see-more-button {
+    opacity: 1 !important;
+}
+
+
+/*****gallery****/
+.lg-thumb-item {
+    opacity: 0.4 !important;
+}
+.lg-thumb-item.active, .lg-thumb-item:hover, .lg-thumb-item:focus{
+    opacity: 1 !important;
+    border: 2px solid white !important;
+}
+

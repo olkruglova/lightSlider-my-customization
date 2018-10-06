@@ -1,0 +1,35 @@
+@media screen and (max-width: 767px) {
+
+p {
+    width: 100vw;
+}
+.lSSlideOuter .lSPager.lSGallery {
+    display: none;
+}
+.lSSlideOuter {
+    width: 100vw;
+    height: 67vw;
+}
+.lSSlideWrapper {
+    overflow: visible !important;
+}
+#lightSlider.lightSlider.lSFade {
+    height: 100% !important;
+}
+.lSSlideOuter .lightSlider > *, .lSSlideOuter .lSGallery li {
+    float: left;
+    height: 100% !important;
+}
+ul img {
+    height: 100% !important;
+    width: auto;
+}
+.demo {
+    width: 100vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+}
+
+
+
